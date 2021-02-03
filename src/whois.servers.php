@@ -1,25 +1,26 @@
 <?php
+
 /**
  * Whois servers list
- * 
+ *
  * This class supposed to be instantiated for using the phpWhois library
- * 
+ *
  * @license http://www.gnu.org/licenses/gpl-2.0.html GNU General Public License, version 2
  * @license
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
  * as published by the Free Software Foundation; either version 2
  * of the License, or (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
- * 
+ *
  * @link http://phpwhois.pw
  * @copyright Copyright (C)1999,2005 easyDNS Technologies Inc. & Mark Jeftovic
  * @copyright Maintained by David Saez
@@ -152,7 +153,7 @@ return array(
     'center'                 => 'whois.donuts.co',
     'ceo'                    => 'whois.nic.ceo',
     'cf'                     => 'whois.dot.cf',
-    'ch'                     => 'whois.nic.ch',
+    'ch'                     => 'https://www.nic.ch/whois/',
     'cheap'                  => 'whois.donuts.co',
     'christmas'              => 'whois.uniregistry.net',
     'church'                 => 'whois.donuts.co',
@@ -238,7 +239,7 @@ return array(
     'fj'                     => 'whois.usp.ac.fj',
     'flights'                => 'whois.donuts.co',
     'florist'                => 'whois.donuts.co',
-    'fm'                     => 'http://www.dot.fm/query_whois.cfm?domain={domain}&tld=fm',
+    'fm'                     => 'whois.nic.fm',
     'fo'                     => 'whois.nic.fo',
     'foo'                    => 'domain-registry-whois.l.google.com',
     'foundation'             => 'whois.donuts.co',
@@ -593,7 +594,7 @@ return array(
     'org.ru'                 => 'whois.nic.ru',
     'pp.ru'                  => 'whois.nic.ru',
     'sochi.su'               => 'whois.nic.ru',
-    'co.za'                  => 'http://co.za/cgi-bin/whois.sh?Domain={domain}.co.za',
+    'co.za'                  => 'http://coza.net.za/cgi-bin/whois.sh?Domain={domain}.co.za',
     'org.za'                 => 'http://www.org.za/cgi-bin/rwhois?domain={domain}.org.za&format=full',
 
     // National tlds
